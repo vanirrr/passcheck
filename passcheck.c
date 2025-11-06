@@ -19,8 +19,8 @@ int main() {
             special++;
         }
     }
-    printf("Password has %i digits and %i special characters\nc", digit, special);
-    if (digit >= 1 && special >= 1) {
+    printf("Password has %i digits and %i special characters\n", digit, special);
+    if (digit >= 1 && special >= 1 && leng >= 8) {
         printf("The password is strong");
     }
     else {
