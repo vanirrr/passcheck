@@ -20,10 +20,11 @@ int main() {
         }
     }
     printf("Password has %i digits and %i special characters\n", digit, special);
+    printf("The password has %i characters\n", leng-1);
     if (digit >= 1 && special >= 1 && leng >= 8) {
-        printf("The password is strong");
+        printf("The password is strong\n");
     }
     else {
-        printf("The password is weak");
+        printf("The password is weak\n");
     }
 }
